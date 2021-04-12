@@ -1,5 +1,6 @@
 import Phaser from 'phaser';
 
+import PreloadScene from './scenes/Preload';
 import PlayScene from './scenes/Play';
 
 const WIDTH = 1280;
@@ -11,6 +12,7 @@ const SHARED_CONFIG = {
 }
 
 const Scenes = [
+  PreloadScene,
   PlayScene
 ];
 
